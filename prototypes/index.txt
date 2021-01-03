@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Public prototypes</h1>
+<p>Select one from the list</p>
+
+<a href="platformer_game">Platformer Game Template</a>
+<br>
+
+</body>
+</html>
