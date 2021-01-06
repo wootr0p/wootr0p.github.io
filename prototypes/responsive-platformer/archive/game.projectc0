@@ -125,7 +125,7 @@ package = com.example.todo
 manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
 input_method = HiddenInputField
-immersive_mode = 0
+immersive_mode = 1
 display_cutout = 1
 debuggable = 0
 
@@ -144,7 +144,7 @@ htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/light_theme.css
 archive_location_prefix = archive
 show_fullscreen_button = 1
-show_made_with_defold = 1
+show_made_with_defold = 0
 scale_mode = downscale_fit
 
 [particle_fx]
@@ -166,7 +166,7 @@ shared_state = 1
 
 [label]
 max_count = 64
-subpixels = 1
+subpixels = 0
 
 [profiler]
 track_cpu = 0
