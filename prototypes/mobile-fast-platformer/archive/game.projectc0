@@ -1,6 +1,6 @@
 [project]
 title = mobile-fast-platformer
-version = 0.01a
+version = 0.01b
 write_log = 0
 compress_archive = 1
 publisher = unnamed
