@@ -1,0 +1,24 @@
+html, body {
+	font-family: 'Courier New', monospace;
+}
+
+header {
+	background-color: #272744;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+main {
+	padding: 20px;
+	font-size: 25px;
+	background-color: white;
+}
+
+footer {
+	background-color: #494d7e;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
