@@ -22,3 +22,23 @@ footer {
 	text-align: center;
 	color: white;
 }
+
+ /* unvisited link */
+a:link {
+  color: #494d7e;
+}
+
+/* visited link */
+a:visited {
+  color: #8b6d9c;
+}
+
+/* mouse over link */
+a:hover {
+  color: #c69fa5;
+}
+
+/* selected link */
+a:active {
+  color: #494d7e;
+} 
