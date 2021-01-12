@@ -1,6 +1,6 @@
 [project]
 title = mobile-fast-platformer
-version = 0.01b
+version = 0.01c
 write_log = 0
 compress_archive = 1
 publisher = unnamed
@@ -132,6 +132,7 @@ debuggable = 0
 [osx]
 infoplist = /builtins/manifests/osx/Info.plist
 bundle_identifier = example.unnamed
+bundle_version = 1
 default_language = en
 localizations = en
 

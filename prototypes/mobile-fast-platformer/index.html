@@ -7,7 +7,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>mobile-fast-platformer 0.01b</title>
+	<title>mobile-fast-platformer 0.01c</title>
 	<style type='text/css'>
 	/* Disable user selection to avoid strange bug in Chrome on Windows:
 	* Selecting a text outside the canvas, then clicking+draging would
@@ -156,6 +156,8 @@
 		full_screen_container: "#canvas-container",
 		disable_context_menu: true
 	}
+
+	Module['INITIAL_MEMORY'] = extra_params.custom_heap_size;
 
 	Module['onRuntimeInitialized'] = function() {
 		Module.runApp("canvas", extra_params);
